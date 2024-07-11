@@ -11,6 +11,7 @@
 tests/util/icon/test/*
 tests/tmp/*
 probtest_env
+conda-env
 
 mock_output
 env
