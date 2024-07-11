@@ -2,14 +2,14 @@ import warnings
 
 import click
 
-from util.click_util import cli_help
-from util.constants import CHECK_THRESHOLD, compute_statistics
-from util.dataframe_ops import (
+from probtest.util.click_util import cli_help
+from probtest.util.constants import CHECK_THRESHOLD, compute_statistics
+from probtest.util.dataframe_ops import (
     compute_div_dataframe,
     compute_rel_diff_dataframe,
     parse_probtest_csv,
 )
-from util.log_handler import logger
+from probtest.util.log_handler import logger
 
 
 def check_intersection(df_ref, df_cur):

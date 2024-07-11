@@ -1,8 +1,8 @@
 import click
 
-from util.click_util import cli_help
-from util.log_handler import logger
-from util.tree import TimingTree
+from probtest.util.click_util import cli_help
+from probtest.util.log_handler import logger
+from probtest.util.tree import TimingTree
 
 
 @click.command()

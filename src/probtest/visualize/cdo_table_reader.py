@@ -1,8 +1,8 @@
 import click
 import pandas as pd
 
-from util.click_util import CommaSeperatedInts, CommaSeperatedStrings, cli_help
-from util.dataframe_ops import parse_probtest_csv
+from probtest.util.click_util import CommaSeperatedInts, CommaSeperatedStrings, cli_help
+from probtest.util.dataframe_ops import parse_probtest_csv
 
 pd.set_option("expand_frame_repr", False)
 

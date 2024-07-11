@@ -5,11 +5,11 @@ from pathlib import Path
 
 import click
 
-from util.click_util import cli_help
-from util.file_system import file_names_from_pattern
-from util.icon.extract_timings import read_logfile
-from util.log_handler import logger
-from util.tree import TimingTree, treefile_template
+from probtest.util.click_util import cli_help
+from probtest.util.file_system import file_names_from_pattern
+from probtest.util.icon.extract_timings import read_logfile
+from probtest.util.log_handler import logger
+from probtest.util.tree import TimingTree, treefile_template
 
 
 @click.command()

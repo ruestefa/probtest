@@ -1,0 +1,34 @@
+[build-system]
+requires = [
+    "setuptools>=65",
+    "wheel>=0.38",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "probtest"
+version = "0.0.1"
+description = "Probtest is a suite of python scripts to test various aspects of weather and climate models"
+readme = "README.md"
+keywords = [
+    "probtest",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.11"
+authors = [
+    {name="Daniel Hupp", email="daniel.hupp@meteoswiss.ch"},
+]
+
+[project.urls]
+source = "https://github.com/MeteoSwiss/probtest"
+documentation = "https://github.com/MeteoSwiss/probtest"
+
+[project.scripts]
+# Format: <command> = "<package>.<module>:<function>"
+probtest = "probtest.cli:cli"
